@@ -1,0 +1,15 @@
+[package]
+name = "corkscrew-rs"
+version = "0.1.0"
+authors = ["Yannick Heinrich <yannick.heinrich@gmail.com>"]
+description = "A quick and dirty port of corkscrew in Rust"
+repository = "https://github.com/rustch/corkscrew-rs"
+homepage = "https://github.com/rustch/corkscrew-rs"
+
+keywords = ["corkscrew", "proxy", "http", "https"]
+categories = ["network-programming"]
+license = "GPL-2.0-only"
+
+[dependencies]
+mio = "0.6.16"
+base64 = "0.9.2"
